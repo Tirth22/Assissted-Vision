@@ -6,8 +6,8 @@ import {
   } from "react-router-dom";
 
 // Importing the required components
-import Board from './containers/Board';
-import Quiz from './containers/Quiz';
+//import Board from './containers/Board';
+//import Quiz from './containers/Quiz';
 import Header from "./components/Header";
 import Landing from "./containers/Landing";
 import ObjectDetection from "./containers/ObjectDetection";
@@ -23,8 +23,8 @@ function App() {
                 <Header/> 
                 <Routes>
                     <Route path="/detection" element={<ObjectDetection/>} />
-                    <Route path="/board" element={<Board />}/>
-                    <Route path="/quiz" element={<Quiz />}/>
+                    {/* <Route path="/board" element={<Board />}/> */}
+                    {/* <Route path="/quiz" element={<Quiz />}/> */}
                     <Route path="/" element={<Landing />}/>
                 </Routes>
             </Router>
